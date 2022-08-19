@@ -15,7 +15,26 @@
 # limitations under the License.
 #
 
+# Device Tree Path
 DEVICE_PATH := device/samsung/a10s
+SHRP_PATH := device/samsung/a10s
+
+# SHRP Props
+SHRP_MAINTAINER := ItzKaguya
+SHRP_DEVICE_CODE := a10s
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A/B
+SHRP_NOTCH := true
+SHRP_STATUSBAR_RIGHT_PADDING := 20
+SHRP_STATUSBAR_LEFT_PADDING := 20
+SHRP_DARK := true
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_AB := true
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
