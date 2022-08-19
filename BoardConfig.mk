@@ -33,6 +33,9 @@ SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
+SHRP_FLASH_MAX_BRIGHTNESS := 1
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_AB := true
 
@@ -121,6 +124,7 @@ BOARD_VNDK_VERSION := current
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
+TW_MTP_DEVICE := "itzkaguya"
 # Do not set up legacy properties
 TW_NO_LEGACY_PROPS := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
