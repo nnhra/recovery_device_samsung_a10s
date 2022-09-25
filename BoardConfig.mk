@@ -64,7 +64,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := a10s,a10sxx
+TARGET_OTA_ASSERT_DEVICE := a10s
 
 # Bootloader
 TARGET_SOC := mt6765
@@ -126,7 +126,7 @@ BOARD_VNDK_VERSION := current
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
-TW_MTP_DEVICE := "itzkaguya"
+TW_MTP_DEVICE := "Galaxy A10s"
 # Do not set up legacy properties
 TW_NO_LEGACY_PROPS := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
