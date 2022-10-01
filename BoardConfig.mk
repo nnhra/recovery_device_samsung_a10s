@@ -96,9 +96,6 @@ AB_OTA_UPDATER := false
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 
-# VNDK
-BOARD_VNDK_VERSION := current
-
 # TWRP specific build flags
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
